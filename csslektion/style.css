@@ -1,0 +1,52 @@
+
+
+
+
+
+
+body{
+background-image: url("../bilder/wok.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+a{
+	background-color: pink;
+	padding: 10px;
+	border-radius: 50px;
+	transition: all 2s;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: green;
+	border-radius:0;
+	padding: 30px;
+	font-size: 30px;
+	color: orange;
+}
+
+.box{
+	width: 25%;
+	height: 30%;
+	box-shadow: 5px 5px 10px black;
+}
+
+button{
+	background color: transparent;
+	border: 2px solid #e55;
+	padding: 10px;
+	color: #e55;
+	font-family: "Roboto";
+	border-radius: 50px;
+	font-size: 20px;
+	transition: all 0.5s;
+
+}
+
+button:hover {
+box-shadow: 5px 5px 10px pink;
+background-color: #e55;
+color: white;
+}
